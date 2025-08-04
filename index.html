@@ -7,26 +7,36 @@
   <link rel="icon" type="image/x-icon" href="icons/icon.png">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>                      
   <link rel="stylesheet" type="text/css" href="style/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
   <link
   rel="stylesheet"
   href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
   integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
   crossorigin="anonymous"
 />
-<link
-  href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
-  rel="stylesheet"
-/>
-<link
-  href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
-  rel="stylesheet"
-/>
+
+  <link href="https://fonts.googleapis.com/css?family=Preahvihear" rel="stylesheet">
 
 <script src="JavaScript/"></script>
 </head>
 <body>
-<!-- START NAV -->
 
+<div id="preloader">
+  <div class="dot-spinner">
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+  </div>
+</div>
+
+  <div id="main-content">
+<!-- START NAV -->
 <nav id="navbar" class="nav">
   <ul class="nav-list">
     <li>
@@ -44,39 +54,111 @@
 <!-- END NAV -->
 
 <!-- START WELCOME SECTION -->
-<section id="welcome-section" class="welcome-section intro">
- <div class="intro" id="home">
-  <img src="icons/me.jpg" alt="Jelmark Perlaoan" class="intro__img">
-    <h1 class="section__title section__title--intro">
-      Hi, I'm<strong> Jelmark M. Perlaoan</strong>
-    </h1> <p ></p><br>
-     <p class="label">Web Developer<br>
-  jelmark.perlaoan@gmail.com<br>
-  +63905-043-0323</p><br>
-  <a href="https://www.facebook.com/jelmark.perlaoan/" class="facebook"></a>
-  </div>
+<section id="welcome-section" class="welcome-section">
+  <div class="intro " id="home">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
 
-  <!-- <h2>Hi! I am </h2><h1>Jelmark M. Perlaoan</h1>
-  <p>Web Developer</p>
-  <p>jelmark.perlaoan@gmail.com</p>
-  <p>+63905 043 0323</p>
-  <a href="https://www.facebook.com/jelmark.perlaoan/" class="facebook"></a> -->
+    <img src="icons/pictureMe.png" alt="Jelmark Perlaoan" class="intro__img img-wrapper" id="intro-img" />
+   
+    <h1 class="section__title section__title--intro" id="intro-text">
+      Hi! I'm <span style="color: #ffffff; font-weight: bold;">Jelmark M. Perlaoan</span><br>
+      <font class="desc">an entry-level fullstack developer <br>
+      based in Philippines.</font>
+    </h1>
+
+    <a href="cv/Jelmark Perlaoan CV.pdf" download>
+      <button class="Download-button">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="16"
+          width="20"
+          viewBox="0 0 640 512">
+          <path
+            d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" fill="white">
+          </path>
+        </svg>
+        <span>Download CV</span>
+      </button>
+    </a>
+
+  </div>
 </section>
 
 <section id="about" class="about">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About</h2><br>
+      <p>I recently graduated from Central Luzon State University with a Bachelor's degree in Information Technology. I am passionate about building digital solutions and pursuing a career as a Web Developer.</p>
 
-  <h2>About</h2><br><br>
-  <p>Hello! I am Jelmark M. Perlaoan, student of Central Luzon State University taking Bachelor of Science in Information Technology degree with a major in System Development. My dream job is to become a Web Developer.</p><br>
-  <p>The programming language that i've learn during colleges are Java, Html, CSS, JavaScript, PHP, Python and Android development.</p>
+      <p>Committed to continuous learning and professional growth, I strive to contribute to impactful projects while working with a collaborative team where I can apply and grow my skills.</p>
+    </div>
 
+    <div class="skills-section">
+      <div class="skills-column">
+        <h3>Frameworks</h3>
+        <div class="icon-group">
+          <div class="icon-wrapper">
+            <i class="devicon-react-original colored"></i>
+            <span>React.js</span>
+          </div>
+          <div class="icon-wrapper">
+            <i class="devicon-laravel-plain colored"></i>
+            <span>Laravel</span>
+          </div>
+          <div class="icon-wrapper">
+            <i class="devicon-tailwindcss-plain colored"></i>
+            <span>Tailwind</span>
+          </div>
+          <div class="icon-wrapper">
+            <i class="devicon-androidstudio-plain colored"></i>
+            <span>Android Studio</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-column">
+        <h3>Languages</h3>
+        <div class="icon-group">
+          <div class="icon-wrapper">
+            <i class="devicon-java-plain colored"></i>
+            <span>Java</span>
+          </div>
+          <div class="icon-wrapper">
+            <i class="devicon-python-plain colored"></i>
+            <span>Python</span>
+          </div>
+          <div class="icon-wrapper">
+            <i class="devicon-javascript-plain colored"></i>
+            <span>JavaScript</span>
+          </div>
+          <div class="icon-wrapper">
+            <i class="devicon-php-plain colored"></i>
+            <span>PHP</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-column">
+        <h3>Database</h3>
+        <div class="icon-group">
+          <div class="icon-wrapper">
+            <i class="devicon-mysql-plain colored"></i>
+            <span>MySQL</span>
+          </div>
+          <div class="icon-wrapper">
+            <i class="devicon-sqlite-plain colored"></i>
+            <span>SQLite</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<!-- END WELCOME SECTION -->
 
-<!-- This is your lightbox, it is contained in a modal. Here you provide all the images,
-     controls, and another set of preview images as the dots. Dots show your user which
-     image is currently active. Note that you use entities (e.g. &times;), more info on
-     them at the bottom. -->
+<!-- END WELCOME SECTION -->
      
 <div id="Lightbox" class="modal">
   
@@ -194,6 +276,31 @@
 </footer>
 
 <!-- END FOOTER SECTION -->
+</div>
+
+<script>
+  window.addEventListener('load', function () {
+    const loader = document.getElementById('preloader');
+    const content = document.getElementById('main-content');
+    const img = document.getElementById('intro-img');
+    const text = document.getElementById('intro-text');
+
+    // Delay loader removal for at least 1.5 seconds
+    setTimeout(() => {
+      loader.classList.add('fade-out');
+
+      // Wait for fade-out transition before showing content
+      setTimeout(() => {
+        loader.style.display = 'none';
+        content.style.display = 'block';
+
+        // Trigger animations
+        img.classList.add('animate-img');
+        text.classList.add('animate-text');
+      }, 500);
+    }, 1500);
+  });
+</script>
 
 
 <script>
@@ -250,5 +357,6 @@ function showSlide(n) {
   modalPreviews[slideIndex - 1].className += ' active';
 };
 </script>
+
 </body>
 </html>
